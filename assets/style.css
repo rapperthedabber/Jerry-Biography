@@ -42,7 +42,7 @@ li{
 
 li:hover {
     color: red;
-    display: inline;
+
     margin: 100px;
     background-color: whitesmoke;
     font-size: large;
@@ -176,7 +176,9 @@ h1{
     background-color: antiquewhite;
 
 }
-
+.Project-items li {
+    color: red
+}
 footer {
     background-color: brown;
     border: 10px solid white;
