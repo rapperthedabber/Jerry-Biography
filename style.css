@@ -1,0 +1,11 @@
+body{
+   background-color: chartreuse;
+}
+
+.container-fluid{
+   background-color: rgba(0, 0, 255, 0.664);
+}
+
+.container{
+   margin-top: 20px;
+}
