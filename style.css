@@ -8,4 +8,55 @@ body{
 
 .container{
    margin-top: 20px;
+   -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+   animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+@-webkit-keyframes container {
+   0% {
+     -webkit-filter: blur(12px);
+             filter: blur(12px);
+     opacity: 0;
+   }
+   100% {
+     -webkit-filter: blur(0px);
+             filter: blur(0px);
+     opacity: 1;
+   }
+ }
+ @keyframes text-focus-in {
+   0% {
+     -webkit-filter: blur(12px);
+             filter: blur(12px);
+     opacity: 0;
+   }
+   100% {
+     -webkit-filter: blur(0px);
+             filter: blur(0px);
+     opacity: 1;
+   }
+ }
+
+
+
+img{
+   height: 80px;
+   width: 100px;
+   border-radius: 10px;
+}
+
+.card-body{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-body:hover{
+   border: solid red;
+
+}
+.card-title1:hover{
+   cursor: pointer;
+}
+
+.description1 {
+display: none;
+   background: white;
+   transition: ease-in-out;
 }
