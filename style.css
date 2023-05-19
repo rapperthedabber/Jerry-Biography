@@ -62,11 +62,11 @@ animation: myAnim 1s ease 0s 1 normal forwards;
 
 
 
-img{
+/* img{
    height: 80px;
    width: 100px;
    border-radius: 10px;
-}
+} */
 
 .card-body{
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -293,22 +293,94 @@ margin-left: 400px;
 
 @media only screen and (max-width: 600px) {
   .carousel {
-  width: 350px;
+  width: 300px;
   margin-left: 80px;
 margin-bottom: 100px;
-margin-right: 900px;
+margin-right: 1000px;
  
   
   }
 }
 
+.carousel-control-prev{
+margin-top: 200px;
+
+
+}
+.carousel-control-next{
+margin-top: 200px;
+}
 img{
   height: 400px;
   float: left;
+  display: flex;
 
+}
+@media only screen and (max-width: 600px) {
+  img {
+  width: 350px;
+display: flex;
+margin-bottom: 100px;
+
+ 
+  
+  }
 }
 
 h2{
   color: white;
 }
 
+#About{
+  background-color: white;
+  overflow: auto;
+  margin: 20px;
+
+}
+
+#Description{
+  color: black;
+font-family: monospace;
+  padding: 20px;
+}
+
+.languages{
+  margin-left: 100px;
+  width: 40px;
+ 
+}
+#language{
+  width: 100px;
+  height: 100px;
+  display: flex;
+ margin-left: 100px;
+ margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  #language {
+    width: 50px;
+    height: 50px;
+    display: flex;
+
+ 
+  
+  }
+}
+
+footer{
+  background-color: wheat;
+  overflow: auto;
+}
+#gitHub{
+  width: 50px;
+  height: 50px;
+margin: 10px;
+}
+#gitHub:hover{
+  width: 50px;
+  height: 50px;
+margin: 10px;
+border: solid;
+border-radius: 20px;
+}
