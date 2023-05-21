@@ -1,274 +1,302 @@
-body{
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-size: cover;
-   background-position: top;
-   background-image:url(http://bit.ly/2gPLxZ4);
-   width: 100%;
-   height: 100%;
-   font-family: Arial, Helvetica;
-   letter-spacing: 0.02em;
-    font-weight: 400;
-   -webkit-font-smoothing: antialiased; 
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  background-image: url(http://bit.ly/2gPLxZ4);
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
 }
 
 
-.Time-container{
-color: white;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-border-radius: 10px;
-margin-top: 20px;
-animation: myAnim 1s ease 0s 1 normal forwards;
+.Time-container {
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 10px;
+  margin-top: 20px;
+  animation: myAnim 1s ease 0s 1 normal forwards;
 }
+
 @keyframes myAnim {
-	0% {
-		transform: scale(0.5);
-	}
+  0% {
+    transform: scale(0.5);
+  }
 
-	100% {
-		transform: scale(1);
-	}
+  100% {
+    transform: scale(1);
+  }
 }
-.container{
-   overflow: hidden;
-   margin-top: 20px;
-   -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-   animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+
+.container {
+  overflow: hidden;
+  margin-top: 20px;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
+
 @-webkit-keyframes container {
-   0% {
-     -webkit-filter: blur(12px);
-             filter: blur(12px);
-     opacity: 0;
-   }
-   100% {
-     -webkit-filter: blur(0px);
-             filter: blur(0px);
-     opacity: 1;
-   }
- }
- @keyframes text-focus-in {
-   0% {
-     -webkit-filter: blur(12px);
-             filter: blur(12px);
-     opacity: 0;
-   }
-   100% {
-     -webkit-filter: blur(0px);
-             filter: blur(0px);
-     opacity: 1;
-   }
- }
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
 
 
 
-/* img{
-   height: 80px;
-   width: 100px;
-   border-radius: 10px;
-} */
 
-.card-body{
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-opacity: 0.6;
-}
-.card-body:hover{
-   border: solid red;
-   opacity: 1;
-
-}
-.card-title1:hover{
-   cursor: pointer;
-   color: red;
-   opacity: 1;
-}
-.card-title2:hover{
-   cursor: pointer;
-   color: red;
-   opacity: 1;
+.card-body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  opacity: 0.6;
 }
 
-.card-title3:hover{
-   cursor: pointer;
-   color: red;
-   opacity: 1;
+.card-body:hover {
+  border: solid red;
+  opacity: 1;
+
 }
-.card-title4:hover{
-   cursor: pointer;
-   color: red;
-   opacity: 1;
+
+.card-title1:hover {
+  cursor: pointer;
+  color: red;
+  opacity: 1;
 }
+
+.card-title2:hover {
+  cursor: pointer;
+  color: red;
+  opacity: 1;
+}
+
+.card-title3:hover {
+  cursor: pointer;
+  color: red;
+  opacity: 1;
+}
+
+.card-title4:hover {
+  cursor: pointer;
+  color: red;
+  opacity: 1;
+}
+
 .description1 {
-display: none;
-   background: white;
-   -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-   animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  display: none;
+  background: white;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
+
 @-webkit-keyframes description1 {
-   0% {
-     -webkit-filter: blur(12px);
-             filter: blur(12px);
-     opacity: 0;
-   }
-   100% {
-     -webkit-filter: blur(0px);
-             filter: blur(0px);
-     opacity: 1;
-   }
- }
- @keyframes text-focus-in {
-   0% {
-     -webkit-filter: blur(12px);
-             filter: blur(12px);
-     opacity: 0;
-   }
-   100% {
-     -webkit-filter: blur(0px);
-             filter: blur(0px);
-     opacity: 1;
-   }
- }
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
 
 
 
 
 
 .description2 {
-   display: none;
-   background:blueviolet ;
-   transition: ease-in-out;
-   -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-   animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  display: none;
+  background: blueviolet;
+  transition: ease-in-out;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
+
 @-webkit-keyframes description2 {
-   0% {
-     -webkit-filter: blur(12px);
-             filter: blur(12px);
-     opacity: 0;
-   }
-   100% {
-     -webkit-filter: blur(0px);
-             filter: blur(0px);
-     opacity: 1;
-   }
- }
- @keyframes text-focus-in {
-   0% {
-     -webkit-filter: blur(12px);
-             filter: blur(12px);
-     opacity: 0;
-   }
-   100% {
-     -webkit-filter: blur(0px);
-             filter: blur(0px);
-     opacity: 1;
-   }
- }
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
 
- .description3 {
-   display: none;
-   background:chartreuse ;
-   transition: ease-in-out;
-   -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-   animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
 }
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.description3 {
+  display: none;
+  background: chartreuse;
+  transition: ease-in-out;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
 @-webkit-keyframes description3 {
-   0% {
-     -webkit-filter: blur(12px);
-             filter: blur(12px);
-     opacity: 0;
-   }
-   100% {
-     -webkit-filter: blur(0px);
-             filter: blur(0px);
-     opacity: 1;
-   }
- }
- @keyframes text-focus-in {
-   0% {
-     -webkit-filter: blur(12px);
-             filter: blur(12px);
-     opacity: 0;
-   }
-   100% {
-     -webkit-filter: blur(0px);
-             filter: blur(0px);
-     opacity: 1;
-   }
- }
- .description4 {
-   display: none;
-   background:brown ;
-   transition: ease-in-out;
-   -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-   animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
 }
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.description4 {
+  display: none;
+  background: brown;
+  transition: ease-in-out;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
 @-webkit-keyframes description4 {
-   0% {
-     -webkit-filter: blur(12px);
-             filter: blur(12px);
-     opacity: 0;
-   }
-   100% {
-     -webkit-filter: blur(0px);
-             filter: blur(0px);
-     opacity: 1;
-   }
- }
- @keyframes text-focus-in {
-   0% {
-     -webkit-filter: blur(12px);
-             filter: blur(12px);
-     opacity: 0;
-   }
-   100% {
-     -webkit-filter: blur(0px);
-             filter: blur(0px);
-     opacity: 1;
-   }
- }
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
 
 
- .profileDescription{
-   align-items: center;
-   border-radius: 20px;
-   font-family: 'Courier New', Courier, monospace;
-   margin: 200px;
-   margin-top: 20px;
-   width: 500px;
-   display: none;
-   background-color: white;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-   animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
- }
- @-webkit-keyframes profileDescription {
-   0% {
-     -webkit-filter: blur(12px);
-             filter: blur(12px);
-     opacity: 0;
-   }
-   100% {
-     -webkit-filter: blur(0px);
-             filter: blur(0px);
-     opacity: 1;
-   }
- }
- @keyframes text-focus-in {
-   0% {
-     -webkit-filter: blur(12px);
-             filter: blur(12px);
-     opacity: 0;
-   }
-   100% {
-     -webkit-filter: blur(0px);
-             filter: blur(0px);
-     opacity: 1;
-   }
- }
+.profileDescription {
+  align-items: center;
+  border-radius: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 200px;
+  margin-top: 20px;
+  width: 500px;
+  display: none;
+  background-color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
 
-#Profile{
-   cursor: pointer;
+@-webkit-keyframes profileDescription {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+#Profile {
+  cursor: pointer;
 }
 
 /* .carousel-inner{
@@ -280,11 +308,11 @@ height: 800px;
 margin-right: 300px;
 } */
 
-.carousel{
- 
+.carousel {
+
   width: 600px;
-margin-bottom: 100px;
-margin-left: 400px;
+  margin-bottom: 100px;
+  margin-left: 400px;
 
 
 
@@ -293,68 +321,74 @@ margin-left: 400px;
 
 @media only screen and (max-width: 600px) {
   .carousel {
-  width: 300px;
-  margin-left: 80px;
-margin-bottom: 100px;
-margin-right: 1000px;
- 
-  
+    width: 300px;
+    margin-left: 80px;
+    margin-bottom: 100px;
+    margin-right: 1000px;
+
+
   }
 }
 
-.carousel-control-prev{
-margin-top: 200px;
+.carousel-control-prev {
+  margin-top: 900px;
 
 
 }
-.carousel-control-next{
-margin-top: 200px;
+
+.carousel-control-next {
+  margin-top: 900px;
 }
-img{
+
+img {
   height: 400px;
   float: left;
   display: flex;
 
+
 }
+
 @media only screen and (max-width: 600px) {
   img {
-  width: 350px;
-display: flex;
-margin-bottom: 100px;
+    width: 350px;
+    display: flex;
+    margin-bottom: 100px;
 
- 
-  
+
+
   }
 }
 
-h2{
+h2 {
   color: white;
+  margin: 20px;
 }
 
-#About{
+#About {
   background-color: white;
   overflow: auto;
   margin: 20px;
 
 }
 
-#Description{
+#Description {
   color: black;
-font-family: monospace;
+  font-family: monospace;
   padding: 20px;
 }
 
-.languages{
+.languages {
   margin-left: 100px;
   width: 40px;
- 
+
 }
-#language{
+
+#language {
   width: 100px;
   height: 100px;
   display: flex;
- margin-left: 100px;
- margin-bottom: 50px;
+  margin-left: 100px;
+  margin-bottom: 50px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -363,24 +397,273 @@ font-family: monospace;
     height: 50px;
     display: flex;
 
- 
-  
+
+
   }
 }
 
-footer{
+footer {
   background-color: wheat;
   overflow: auto;
 }
-#gitHub{
+
+#gitHub {
   width: 50px;
   height: 50px;
-margin: 10px;
+  margin: 10px;
 }
-#gitHub:hover{
+
+#gitHub:hover {
   width: 50px;
   height: 50px;
-margin: 10px;
-border: solid;
-border-radius: 20px;
+  margin: 10px;
+  border: solid;
+  border-radius: 20px;
+}
+
+.JerryContainer {
+  display: flex;
+  background-color: navajowhite;
+  margin-bottom: 30px;
+  overflow: hidden;
+  overflow-x: hidden;
+
+}
+
+#Jerry {
+  animation: slide-in-bottom 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-in-bottom {
+  0% {
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.List1 {
+  font-size: 50px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  margin-left: 10px;
+  list-style: none;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+.List2 {
+  font-size: 50px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  margin-left: 10px;
+  list-style: none;
+  animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+.List3 {
+  font-size: 50px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  margin-left: 10px;
+  list-style: none;
+  animation: text-focus-in 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+
+}
+
+.List4 {
+  font-size: 50px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  margin-left: 10px;
+  list-style: none;
+  animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+
+  }
+
+  .JerryContainer {
+    display: block;
+    width: 100%;
+    height: 350px;
+   
+    background-color: navajowhite;
+    overflow: auto;
+
+
+  }
+
+  .List1 {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+margin: 20px;
+    list-style: none;
+    animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+
+
+
+  }
+
+  .List2 {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin: 20px;
+
+    list-style: none;
+    animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+
+
+  }
+
+  .List3 {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+margin: 20px;
+    list-style: none;
+    animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+
+
+  }
+
+  .List4 {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+margin: 20px;
+    list-style: none;
+    animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+
+
+  }
+
+  @keyframes text-focus-in {
+    0% {
+      filter: blur(12px);
+      opacity: 0;
+    }
+
+    100% {
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
+
+  #Jerry {
+    display: flex;
+    margin-top: 10px;
+    width: 200px;
+    height: 350px;
+   
+
+  }
+
+
+  .unOrder {
+ display: block;
+ width: 100%;
+
+ margin-left: 10px;
+
+
+
+
+
+  }
+}
+
+
+
+
+
+
+
+
+@media screen and (width: 100%) {
+  #projectImage {
+    width: 500px;
+  }
+
+
+}
+
+#Welcome {
+  display: flex;
+  margin-top: 100px;
+  color: white;
+  font-family: cursive, monospace;
+  animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+}
+
+@media screen and (max-width: 600px) {
+  #Welcome{ 
+    display: flex;
+ 
+    color: white;
+    font-family: cursive, monospace;
+    animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    
+  }
+}
+
+@keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+#projectImage {
+  width: 500px;
+  margin-right: 20px;
+  
+}
+
+@media screen and (max-width:600px) {
+  
+  #projectImage {
+    width: 250px;
+    margin-right: 20px;
+    
+  }
 }
